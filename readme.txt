@@ -37,8 +37,8 @@ Format for ic model:
     Location:
         path_to_dataset/graph_ic.inf
     Format:
-        Each line has three numbers
-        node1 node2 propogation_probability_from_node1_to_node2
+        Each line has two numbers
+        node1 node2
     Comments:
         It is always a directed graph
         node number should range in [0 to n-1] (inclusive)
